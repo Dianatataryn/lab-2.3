@@ -23,7 +23,7 @@ function loadWares(filter, price_from, price_to) {
                             <span>${ware.company} ${ware.model}</span>
                             <div>
                                 <button class="buy" id="buy${ware.id.substr(4)}">
-                                    <img class="${ware.id}" src="media/photo_2024-05-20_13-52-10.jpg" width="20px">
+                                    <img class="${ware.id}" src="images/cart.png" width="20px">
                                 </button>
                                 <span class="price">${ware.price}</span>
                             </div>
